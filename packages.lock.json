@@ -1,9 +1,5 @@
 {
   "version": 1.0.0,
-<<<<<<< HEAD
-=======
-  
->>>>>>> 7a44ffe70531a28584dd434eac89f21cab6a6d06
   "dependencies": {
     "net6.0": {}
   }
