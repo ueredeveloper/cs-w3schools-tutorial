@@ -41,3 +41,6 @@ $RECYCLE.BIN/
 
 # VS Code directories
 .vscode/
+
+# No .txt
+*.txt
