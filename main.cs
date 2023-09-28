@@ -3,16 +3,12 @@ using System;
 
 class HelloWorld {
   static void Main (string [] args){
-    // quantos comentários WriteLine você quiser
-    Console.WriteLine("Hello");
-    Console.WriteLine("I am learning C#");
-    Console.WriteLine("It is awesome!");
-    // cálculos matemáticos
-    Console.WriteLine(3+3);
+    // Comentário em uma linha
+    Console.WriteLine("Hello World in a single-line");
 
-    // Write: não insere nova linha
-    Console.Write("Hello World! ");
-    Console.Write("I will print on the same line.");
+    /* Comentário em múltiplas linhas
+      Desta forma podemos fazer um comentário mais detalhado
+    */
     
   }
 }
