@@ -1,3 +1,3 @@
-# C# Comments - W3Schools
+# C# Variables - W3Schools
 
-Estudo das formas de comentário, em `single-line` ou `multiple-line`.
+Estudo de como utilizar o C# com variávels.
