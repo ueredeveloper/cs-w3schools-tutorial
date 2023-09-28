@@ -43,3 +43,9 @@ $RECYCLE.BIN/
 .vscode/
 # mensagem de commit
 *.txt
+# .gitignore
+
+# Doxygen-generated files
+html/
+latex/
+

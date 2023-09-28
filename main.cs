@@ -1,10 +1,16 @@
 
 using System;
-// código inicial
+
+/**
+ * @brief The main class of the program.
+ */
 class HelloWorld {
-  static void Main (string [] args){
-    {
-      Console.WriteLine("Hello World!");    
+    /**
+     * @brief The entry point of the program.
+     * @param args Command-line arguments passed to the program.
+     */
+    static void Main(string[] args) {
+        // Output a greeting message to the console.
+        Console.WriteLine("Hello World!");
     }
-  }
 }
