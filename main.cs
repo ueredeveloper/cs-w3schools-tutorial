@@ -1,36 +1,34 @@
-
 using System;
 
-class HelloWorld {
-  static void Main (string [] args){
-    
-    // create variable
-    string name = "Jhon";
+/**
+ * @brief This class contains the main entry point for the program.
+ */
+class HelloWorld
+{
+    /**
+     * @brief The main method of the program.
+     * @param args The command-line arguments.
+     */
+    static void Main(string[] args)
+    {
+        // user name
+        string name = "José";
+        // User coordinates
+        double lat = -15.123456789;
+        double lng = -47.123456789;
 
-    Console.WriteLine("name: " + name);
+        // Determine if the user is granted
+        bool isGranted = true;
 
-    // variable that store number
-    int myNum = 5;
-    Console.WriteLine("number: " + myNum);
+     string ConvertIsGranted(bool isGranted) {
+      return isGranted ? "Sim" : "Não";
+    }
 
-    // declare an assign value
-    int num;
-    num = 15;
-    Console.WriteLine("declare and assing value=> num: " + num);
-
-    //constants
-    const int myConst = 15;
-    Console.WriteLine("Constant: " + myConst);
-
-    // multiple variables
-    int x = 5, z= 50;
-    Console.WriteLine(x+z);    
-    // same value
-    int a,b,c;
-    a = b = c = 45;
-    Console.WriteLine("variables, a, b, c: " + a + b + c);
-    
-    
-    
-  }
+    Console.WriteLine(
+      $" Usuário: {name}" +
+      $"\n Latitude: {lat}" +
+      $"\n Longitude: {lng}" +
+      $"\n Outorgado: {ConvertIsGranted(isGranted)}"
+    );
+    }
 }
